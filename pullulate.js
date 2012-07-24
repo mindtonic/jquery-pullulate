@@ -4,7 +4,7 @@
     // Default Settings
     var settings = $.extend( {
       'hidden_div' : 'pullulate-hiddendiv',
-      'textarea_padding' : 20
+      'height_padding' : 20
     }, options);
 
     function swell(element) {
@@ -12,7 +12,7 @@
     	hiddenDiv = textarea.siblings('.'+settings['hidden_div']);
 	    hiddenDiv.html(textarea.val().replace(/\n/g, '<br>'));
 
-	    textarea.css('height', hiddenDiv.height() + settings['textarea_padding']);
+	    textarea.css('height', hiddenDiv.height() + settings['height_padding']);
     }
 
     return this.each(function() {
