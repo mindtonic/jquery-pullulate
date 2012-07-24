@@ -1,0 +1,21 @@
+textarea {
+    width: 326px;
+    min-height: 50px;
+    padding: 5px;
+}
+
+.pullulate {
+    overflow: hidden;
+}
+
+.pullulate-hiddendiv {
+    display: none;
+    white-space: pre-wrap;
+    width: 500px;
+    min-height: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    overflow: hidden;
+    padding: 5px;
+    word-wrap: break-word;
+}
